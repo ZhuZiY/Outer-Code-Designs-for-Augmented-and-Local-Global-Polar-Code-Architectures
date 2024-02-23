@@ -29,5 +29,5 @@ We propose two novel methods to design outer polar codes for concatenated polar 
 
    ```
 Ziyuan Zhu:
-        + ziz050@ucsd.edu
+         ziz050@ucsd.edu
    ```
