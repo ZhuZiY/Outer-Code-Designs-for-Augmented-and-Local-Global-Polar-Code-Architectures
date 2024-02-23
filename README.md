@@ -1,19 +1,17 @@
-# NN-Polar-Decoder
+# Outer Code Designs for Augmented and Local-Global Polar Code Architectures
 
-We propose a low-complexity recurrent neural network (RNN) polar decoder with codebook-based weight quantization. Hope this code is useful for peer researchers. If you use this code or parts of it in your research, please kindly cite our paper:
+We propose two novel methods to design outer polar codes for concatenated polar code architectures. These methods include a stopping set (SS) construction and a nonstationary density evolution (NDE) construction. Simulation results demonstrate the advantage of these methods over previously proposed constructions based on density evolution (DE) and LLR evolution. Hope this code is useful for peer researchers. If you use this code or parts of it in your research, please kindly cite our paper:
 
-- **Related publication 1:** Chieh-Fang Teng, Chen-Hsi (Derek) Wu, Andrew Kuan-Shiuan Ho, and An-Yeu (Andy) Wu, "[Low-complexity Recurrent Neural Network-based Polar Decoder with Weight Quantization Mechanism](https://ieeexplore.ieee.org/abstract/document/8683778)," *published in 2019 IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP).*
-- **Related publication 2:** Chieh-Fang Teng, Chun-Hsiang Chen, and An-Yeu (Andy) Wu, "[An Ultra-Low Latency 7.8–13.6 pJ/b Reconfigurable Neural Network-Assisted Polar Decoder with Multi-Code Length Support](https://ieeexplore.ieee.org/document/9163022)," *published in 2020 IEEE Symposium on VLSI Circuits (SOVC).*
-- **Related publication 3:** Chieh-Fang Teng and An-Yeu (Andy) Wu, "[A 7.8–13.6 pJ/b Ultra-Low Latency and Reconfigurable Neural Network-Assisted Polar Decoder With Multi-Code Length Support](https://ieeexplore.ieee.org/document/9366300)," *published in 2021 IEEE Transactions on Circuits and Systems I: Regular Papers (TCAS-I).*
+- **Related publication 1:** Ziyuan Zhu, and Paul H. Siegel, "[Outer Code Designs for Augmented and Local-Global Polar Code Architectures](https://www.arxiv.org/abs/2402.04486)," *submitted to 2024 IEEE International Symposium on Information Theory (ISIT 2024).*
+- **Related publication 2:** Ziyuan Zhu, Wei Wu, and Paul H. Siegel, "[Polar Codes with Local-Global Decoding](https://ieeexplore.ieee.org/document/10051996)," *published in 2022 IEEE 56th Asilomar Conference on Signals, Systems, and Computers.*
 
 ---
 
 ## Required Packages
 
-- python 3.6.5
-- numpy 1.16.4
-- tensorflow 1.8.0
+- Matlab R2022 (or later)
 
+<!---
 ## Parameters
 
 - Users need to customize the *config.py* and *Polar-NN-MULT.ipynb* as
@@ -26,11 +24,10 @@ We propose a low-complexity recurrent neural network (RNN) polar decoder with co
   - `quantize_weight` : Different mechanism for weight quantization (0 for non-quantize, 1 for normal, 2 for binarized, 3 for bin, 4 for binarized bin)
   - `bin_bit` : The number of different value
   - `binary_prec` : The number of weight precision (binary_prec must >= bin_bit)
-
+-->
 ## Contact Information
 
    ```
-Chieh-Fang Teng:
-        + jeff@access.ee.ntu.edu.tw
-        + d06943020@ntu.edu.tw
+Ziyuan Zhu:
+        + ziz050@ucsd.edu
    ```
